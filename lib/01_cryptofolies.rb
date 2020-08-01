@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+
+
 def caesar_cipher(string,arg)
   arr = []
   string.split("").map{|i| cipher_letter(i,arg)}.join("")
