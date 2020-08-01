@@ -1,4 +1,4 @@
-
+#!/usr/bin/env ruby
 
 
 def hash_add(hash, key)
