@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+
+
 def day_trader(arr)
   hash = {}
   b=arr.length
