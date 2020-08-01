@@ -1,22 +1,20 @@
-def sum_of_3_or_5_multiples(final_number)
-  a = 0
-  b = []
-  if final_number.is_a?(Integer) && final_number >= 0
-    until a == final_number 
-      if is_multiple_of_3_or_5?(a)
-        b << a
-      end
-      a += 1
-    end
-    return b.inject(0){|sum,x| sum + x }
-  else
-    return "Yo ! Je ne prends que les entiers naturels. TG"
-  end
+#  Fonction de calculer la somme des nombre naturel 
+#  multiple à 3 et 5 au dessous de nombre indiquer
+
+def sum_of_3_and_5_multiples(n)
+	x = 0
+	y = []
+	if n.is_a?(Integer) && n >= 0
+		until x == n
+			if x % 3 == 0 || x % 5 == 0
+				y << x
+			end
+			x += 1
+		end
+		return y.reduce(0, :+)
+	else
+		return "yo je ne prends que les entiers naturels TG"
+	end
 end
 
-def is_multiple_of_3_or_5?(current_number)
-  if current_number % 3 == 0 || current_number % 5 == 0
-    return true
-  else return false
-  end
-end
+puts sum_of_3_and_5_multiples(10)
