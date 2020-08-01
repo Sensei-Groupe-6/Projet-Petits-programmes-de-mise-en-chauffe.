@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 #  Fonction de calculer la somme des nombre naturel 
 #  multiple à 3 et 5 au dessous de nombre indiquer
 
