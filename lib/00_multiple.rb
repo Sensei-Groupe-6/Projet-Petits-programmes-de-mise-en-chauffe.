@@ -15,7 +15,7 @@ def sum_of_3_and_5_multiples(n)
 		end
 		return y.reduce(0, :+)
 	else
-		return "yo je ne prends que les entiers naturels TG"
+		return "ERREUR!!!!yo je ne prends que les entiers naturels TG"
 	end
 end
 
