@@ -6,7 +6,7 @@ Comme son nom l'indique, nous allons concevoir, réaliser et tester quelques pro
   - des comptages de mots dans l'oeuvre de shakespeare
 
 # Pour commencer
-Nous aurons besoin de gemfile permettant de produire ou d'exécuter certaines fonctionnalités, mais également de tester afin de pouvoir créer notre code en se basant sur la méthode Test Driven Development. Notre gemfile du jour sera comme suit:
+Nous aurons besoin de gemfile permettant de produire ou d'exécuter certaines fonctionnalités, mais également de tester notre programme afin de pouvoir créer notre code en se basant sur la méthode Test Driven Development. Notre gemfile du jour sera comme suit:
 
 > source "https://rubygems.org"
 > ruby '2.7.1'
