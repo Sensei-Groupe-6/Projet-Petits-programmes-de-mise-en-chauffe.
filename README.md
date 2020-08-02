@@ -24,6 +24,7 @@ Après cela, nous arrangerons notre dossier en séparant les programmes test,  d
 par défaut, les données et les résultats attendues sont pré-enregistrées dans les programmes de test de fonctionnement de celle-ci. De ce fait, nos programmes et ou code sources ont été écrit selon les résultat que l'on voulait obtenir. Ce qui impliquera, si nécéssaire de pouvoir les modifier selon les besoin de l'utilisateur.
 
 Pour vérifier le bon fonctionnalité du code et/ou du programme, vous pouvez tapez sur votre terminal (ctrl + alt + T : touche de raccourci) l'un des codes suivant :
+
 First code :
 ```sh
 $ rspec # qui excecutera tous les programmes de test
